@@ -3,7 +3,11 @@ public class Shopping {
     float weight;
     float price;
 
-    // 1.) Konstruktor erstellen
+    // Default Konstruktor
+    Shopping () {
+        System.out.println("Das ist ein Default Konstruktor");
+    }
+    // InstanzKonstruktor erstellen
     Shopping (float weightValue, float priceValue) {
         weight = weightValue;
         price = priceValue;
